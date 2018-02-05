@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-http-protocol",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Forbids specifying `http(s)` protocol in URLs",
   "main": "lib/index.js",
   "author": "Stephen Wille",
