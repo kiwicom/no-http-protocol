@@ -28,6 +28,7 @@ ruleTester.run("no-http-protocol", rule, {
     { code: `var valid = 'https://my.server.com'` },
     { code: `let https = 'https://my.site.com'` },
     { code: `let https = 'http://www.w3.org/2000'` }, // allow http on specifications
+    { code: `let https = 'http://www.schema.org/x'` }, // allow http on specifications
   ],
 
   invalid: [
